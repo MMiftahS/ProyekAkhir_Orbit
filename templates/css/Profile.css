@@ -1,0 +1,90 @@
+.box{
+    margin: 50px auto;
+    margin-bottom: 50;
+    height: 1380px;
+    width: 1280px;
+    
+}
+.atas{
+    height: 250px;
+    width: 1280px;
+    background-color: #335384;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+
+}
+h2{
+    margin-top: 20px;
+    text-align: justify;
+}
+.kiri{
+    height: 1280px;
+    width: 430px;
+    float: left;
+    background-color: #e1e1e2;
+}
+.kanan{
+    width: 850px;
+    height: 1280px;
+    background-color: #F0F0F0;
+    float: right;
+}
+.gambar{
+    background-image: url("../images/PSfto.png");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 130px;
+    float: left;
+}
+.fb{
+    background-image: url("../images/logofb.jpg");
+    height: 30px;
+    width: 30px;
+    border-radius: 20%;
+    float: left;
+    background-size: cover;
+}
+.wa{
+    background-image: url("../images/WAlogo.png");
+    height: 35px;
+    width: 35px;
+    border-radius: 20%;
+    float: left;
+    background-size: cover;
+}
+.ig{
+    background-image: url("../images/instagram.png");
+    height: 30px;
+    width: 30px;
+    border-radius: 20%;
+    float: left;
+    background-size: cover;
+}
+.email{
+    background-image: url("../images/logoemail.png");
+    height: 30px;
+    width: 30px;
+    border-radius: 20%;
+    float: left;
+    background-size: cover;
+}
+.alamat{
+    background-image: url("../images/logoalamat.jpg");
+    height: 30px;
+    width: 30px;
+    border-radius: 0%;
+    float: left;
+    background-size: cover;
+}
+.latar{
+    width: 100%;
+    float: left;
+    background-image: url("../images/background.png") ;
+    background-size: cover;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Deployment</title>
+    <link rel="stylesheet"  href="{{url_for('static', filename ='style.css')}}" />
+</head>
+
+<body><center>
+    <pre><h1>Emotion Text Classification</h1></pre>
+    <p><h2>
+        😨😍😥😡😊
+    </h2></p>
+
+    <div class="contact-box">
+        <form action="/sub" method="POST">
+            <input type="text" name="username" placeholder="Masukkan Comment" class="input-field textarea-field">
+            <pre> </pre>
+            <center><input type="submit" class="btn"></center>
+    </form>
+    </div>
+</center></body>
+</html>
