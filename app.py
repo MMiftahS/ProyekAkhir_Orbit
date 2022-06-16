@@ -8,11 +8,12 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from unittest import result
 
 app = Flask(__name__)
-pipeline = joblib.load("model_sentiment_naive.joblib")
+
+pipeline = joblib.load("model/model_sentiment_naive.joblib")
 
 tfidf = TfidfVectorizer
 
-loaded_vec = TfidfVectorizer(decode_error="replace", vocabulary=set(pickle.load(open("selected_feature_tf-idf (2).pkl", "rb"))))
+loaded_vec = TfidfVectorizer(decode_error="replace", vocabulary=set(pickle.load(open("model/selected_feature_tf-idf (2).pkl", "rb"))))
 
 @app.route("/")
 def home():
@@ -22,8 +23,8 @@ def home():
 @app.route("/sub", methods=['POST'])
 def predict():
     if request.method=="POST":
-        name=request.form["username"]
-    hasil = pipeline.predict(loaded_vec.fit_transform([name]))
+        komen=request.form["komen"]
+    hasil = pipeline.predict(loaded_vec.fit_transform([komen]))
     kode = {
         'happy': '😊Senang😊',
         'anger': '😡Marah😡',
