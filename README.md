@@ -1,4 +1,8 @@
 # ProyekAkhir_Orbit
+## Berikut merupakan hasil hosting web pada Heroku
+ ```
+https://proyekakhirorbit.herokuapp.com/
+ ```
 ## Cara Install App
 ## 1. Clone Repository ini
 **Pastikan sudah berada di working directory `ProyekAkhir_Orbit`**
